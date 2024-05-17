@@ -63,7 +63,7 @@ Click on audio to listen to the Blade Runner soudtrack ... and start coding.
 ### AI Terminal
 
 (If you need to get any technical advice related to coding your project , find included ; ai.js , you will need an open ai api key to use it , gpt 3.5 , is really good value.
-add your api key to 'example.env' file and rename it '.env' then type; npm openai  , the ai will appear in your terminal ready to answer any questions...)
+add your api key to 'example.env' file and rename it '.env'  by removing the word 'example'  , then type; ```npm openai ``` , the ai will appear in your terminal ready to answer any questions...)
 
 # Files
 index.html ; you default front end , edit it in whatever way you want.
