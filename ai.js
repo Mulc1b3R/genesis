@@ -28,3 +28,4 @@ userInterface.on("line", async input => {
 
 // Copyright © 2023 Psico Communications and Blockchain Development.
 //https://psicodata.io/CDN/ai-terminal.json
+// apache 2.0
