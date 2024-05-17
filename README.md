@@ -206,7 +206,7 @@ Interact with blockchain networks effortlessly using **Web3** .
 
 
 
-The genesis engine is the easyest and fastest project initiation engine on Earth - no need to spend hours reading the 'docs'.
+The genesis engine is the easiest and fastest project initiation engine on Earth - no need to spend hours reading the 'docs'.
 
 Initailize in less that 60 seconds and start coding....
 
