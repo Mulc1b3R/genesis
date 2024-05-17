@@ -219,6 +219,10 @@ Implement real-time communication features effortlessly with **Socket.io** for s
 
 Interact with blockchain networks effortlessly using **Web3** .
 
+### Historical market data
+
+Stock tickers , forex and crypto market data enabled , every ticker , every currency , every coin.
+
 ### vercel
 
 Deploy your app to vercel in the blink of an eye : in terminal...
