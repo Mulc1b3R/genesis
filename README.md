@@ -74,16 +74,17 @@ server.js ; this is the development server , you can view any changes on the fly
 obfuscate-script.js enables code obfuscation and minification obviating the need to add minification .css from remote servers as is the current modus operandi.
 This reduces energy waste and the application carbon footprint.
 
-auto-update.js enables the package.json to allow updated versions of all modules to be 'pushed' to your application.
+auto-update.js enables the package.json to allow updated versions of all modules to be 'pushed' to your application fron the psicodata.io CDN.
 Just delete the packagelock.json and run the script .
 This is a breaking change from the orthodox methodwhich we consider to be 'obsolete'. (packagelock.json , builds in any zero day vulnerabilities that may exist in the dependencies
 that may not have been discovered at the timeyou created your app , disables forward compatability , and forces reliance on modules that may become depreciated ,
-consigning millions of lines of code, annually , the the scrap heap.
+consigning millions of lines of code, annually , the the scrap heap. (to be on the safe side just copy the old package.json prior to update in case of any incompatabilities caused by 'breaking changes'}
+The 'packagelock.json' will re-spawn next time you run ```npm install``` .
 
 It also makes forensic reconstruction of node.js applications virtually impossible.
 It's your choice whether you auto-update or not , stick with the old way if you prefer.
 
-Package.json comes pre-loaded with modules capable of performing almost any function imaginable :
+Package.json comes pre-loaded with up to date modules capable of performing almost any function imaginable : (modules that are 'built in don't need to be listed).
 
 ### Broadcast Event Propagation
 
