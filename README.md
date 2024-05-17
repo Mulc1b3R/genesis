@@ -35,3 +35,7 @@ genesis
 │
 └── obfuscate-script.js
 ```
+
+#Method
+
+Clone the repo :
