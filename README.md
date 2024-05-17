@@ -244,9 +244,12 @@ Enable automatic updates - we 'push' you the most recent versions of all your no
 
 Instant deployment to vercel.com 
 
+
+
+
 metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
   
-Copyright © 2023 Psico Communications and Blockchain Development.
+Copyright © 2024 Psico Communications and Blockchain Development.
   
 Licensed under the Apache License, Version 2.0
 
