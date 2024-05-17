@@ -69,20 +69,26 @@ add your api key to 'example.env' file and rename it '.env'  by removing the wor
 To add the ai to your new project , just drag (or copy and paste) the 'ai.js' and '.env' files in to your new 'genesis' folder... i put it in the initial root in case it is needed prior to genesis...
 
 # Files
-index.html ; you default front end , edit it in whatever way you want.
-server.js ; this is the development server , you can view any changes on the fly , in your default browser.
+index.html ; you default front end , edit it in whatever way you want ,this is the project GUI.
+server.js ; this is the development server , you can view any changes on the fly , in your default browser. Pre genesis there is nothing to see.
 obfuscate-script.js enables code obfuscation and minification obviating the need to add minification .css from remote servers as is the current modus operandi.
-This reduces energy waste and the application carbon footprint.
+Reducing energy waste two fold.
+After genesis type ; ```npm run encrypt``` , with the file you want to encrypt and 'obfuscate-script.js' in the sane dir , open 'obfuscate-script.js' in your IDE first
+and edit the input and out put file names to the name of the file u want to encrypt and what u want it to be named after encryption.
+
 
 auto-update.js enables the package.json to allow updated versions of all modules to be 'pushed' to your application fron the psicodata.io CDN.
 Just delete the packagelock.json and run the script .
-This is a breaking change from the orthodox methodwhich we consider to be 'obsolete'. (packagelock.json , builds in any zero day vulnerabilities that may exist in the dependencies
-that may not have been discovered at the timeyou created your app , disables forward compatability , and forces reliance on modules that may become depreciated ,
-consigning millions of lines of code, annually , the the scrap heap. (to be on the safe side just copy the old package.json prior to update in case of any incompatabilities caused by 'breaking changes'}
+This is a breaking change from the orthodox method which we consider to be semi 'obsolete'. (packagelock.json , builds in any zero day vulnerabilities that may exist in the dependencies
+that may not have been discovered at the time you created your app , disables forward compatability , and forces reliance on modules that may become depreciated ,
+consigning millions of lines of code, annually , the the scrap heap. (to be on the safe side just copy the old package.json prior to update in case of any incompatabilities caused by 'breaking changes').
+
 The 'packagelock.json' will re-spawn next time you run ```npm install``` .
 
 It also makes forensic reconstruction of node.js applications virtually impossible.
 It's your choice whether you auto-update or not , stick with the old way if you prefer.
+To update type ```npm run imagine``` . ( update is an actually npm command so it was out of bounds, ```imagine``` updates everything instead of having to
+run the npm update command for every module ). This only works in genesis and not outside of it.
 
 Package.json comes pre-loaded with up to date modules capable of performing almost any function imaginable : (modules that are 'built in don't need to be listed).
 
