@@ -38,4 +38,12 @@ genesis
 
 #Method
 
-Clone the repo :
+Clone the repo : https://github.com/Mulc1b3R/genesis.git
+
+Navigate to the root directory : genesis/
+
+npm install : to install dependencies.
+
+npm start : creates all folders and files.
+
+npm run server : starts the development server @ 
