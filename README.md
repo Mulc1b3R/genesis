@@ -6,6 +6,8 @@ Then populates the project with the essential components : package.json , readme
 
 No need to 'npm init' , your project is initialized by the genesis event. (see also 'files' section below for and explanation of the auto-update).
 
+![terra](genesis.png)
+
 # Schema
 
 ```
