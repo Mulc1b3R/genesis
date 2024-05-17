@@ -60,11 +60,13 @@ Visit :  http://localhost:3000  in your browser to view the default index.html
 Planet Earth is spinning in the void : Genesis = true. /project initialized.
 
 Click on audio to listen to the Blade Runner soudtrack ... and start coding.
+(just edit the 'index.html' to suit the needs of your project , this is your projects GUI).
 
 ### AI Terminal
 
 (If you need to get any technical advice related to coding your project , find included ; ai.js , you will need an open ai api key to use it , gpt 3.5 , is really good value.
 add your api key to 'example.env' file and rename it '.env'  by removing the word 'example'  , then type; ```npm run openai ``` , the ai will appear in your terminal ready to answer any questions...)
+To add the ai to your new project , just drag (or copy and paste) the 'ai.js' and '.env' files in to your new 'genesis' folder... i put it in the initial root in case it is needed prior to genesis...
 
 # Files
 index.html ; you default front end , edit it in whatever way you want.
