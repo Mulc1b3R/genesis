@@ -47,13 +47,13 @@ Clone the repo : https://github.com/Mulc1b3R/genesis.git
 
 Navigate to the root directory : genesis/
 
-npm install : to install dependencies.
+```npm install``` : to install dependencies.
 
-npm start : creates all folders and files.
+```npm start``` : creates all folders and files.
 
-cd genesis : change directory to the new 'genesis' folder , this is your working repo after successfully running 'start'.
+```cd genesis``` : change directory to the new 'genesis' folder , this is your working repo after successfully running 'start'.
 
-In the new directory : npm run server : starts the development server @  http://localhost:3000
+In the new directory : ``` npm run server``` : starts the development server @  http://localhost:3000
 
 Visit :  http://localhost:3000  in your browser to view the default index.html
 
