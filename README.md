@@ -4,7 +4,7 @@ genesis creates the framework for initailizing a node.js application project and
 
 Then populates the project with the essential components : package.json , readme.md , .gitignore (node_modules) , index.html , server.js , auto-update.js , obfuscate-script.js.
 
-No need to 'npm init' , your project is initialized by the genesis event. (see also 'files' section below for and explanation of the auto-update).
+No need to ```npm init``` , your project is initialized by the genesis event. (see also 'files' section below for and explanation of the auto-update).
 
 ![terra](genesis.png) 
 index.html
