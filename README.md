@@ -206,9 +206,12 @@ Interact with blockchain networks effortlessly using **Web3** .
 
 ### vercel
 
-Deploy your app to vercel in the blink of an eye...
+Deploy your app to vercel in the blink of an eye : in terminal...
 
-.......................................................
+type ; ``` vercel login``` 
+then ; ``` vercel --prod ```
+
+this will deploy your new app to the vercel servers (make sure you have a , free ,  vercel account prior to deployment).
 
 ### Genesis Engine : 'Get with the program'...
 
@@ -217,6 +220,8 @@ The genesis engine is the easiest and fastest project initiation engine on Earth
 Initailize in less that 60 seconds and start coding....
 
 Enable automatic updates - we 'push' you the most recent versions of all your node_modules : type ; node auto-update.js
+
+Instant deployment to vercel.com 
 
 metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
   
