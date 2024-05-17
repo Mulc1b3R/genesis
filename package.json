@@ -1,0 +1,20 @@
+{
+  "name": "genesis",
+  "version": "1.0.0",
+  "description": "genesis engine",
+  "main": "genesis.js",
+  "url": "https://psicodata.io",
+  "endpoint": "https://psicodata.io/CDN/data.json",
+  "author": "mulciber",
+  "license": "apache 2.0",
+  "scripts": {
+        "start": "node genesis.js",
+        "server": "node server.js"
+        
+    },
+  "dependencies": {
+    "fs": "^0.0.1",
+    "path": "^0.12.7",
+    "axios": "^0.24.0"
+  }
+}
