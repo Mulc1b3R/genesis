@@ -84,18 +84,18 @@ After genesis type ; ```npm run encrypt``` , with the file you want to encrypt a
 and edit the input and out put file names to the name of the file u want to encrypt and what u want it to be named after encryption.
 
 
-auto-update.js enables the package.json to allow updated versions of all modules to be 'pushed' to your application fron the psicodata.io CDN.
+auto-update.js updates the package.json to allow updated versions of all modules to be 'pushed' to your application fron the psicodata.io CDN.
 Just delete the packagelock.json and run the script .
 This is a breaking change from the orthodox method which we consider to be semi 'obsolete'. (packagelock.json , builds in any zero day vulnerabilities that may exist in the dependencies
-that may not have been discovered at the time you created your app , disables forward compatability , and forces reliance on modules that may become depreciated ,
+that may not have been discovered at the time you created your app , disables forward compatability , and forces reliance on modules that may have become depreciated ,
 consigning millions of lines of code, annually , the the scrap heap. (to be on the safe side just copy the old package.json prior to update in case of any incompatabilities caused by 'breaking changes').
 
 The 'packagelock.json' will re-spawn next time you run ```npm install``` .
 
 It also makes forensic reconstruction of node.js applications virtually impossible.
 It's your choice whether you auto-update or not , stick with the old way if you prefer.
-To update type ```npm run imagine``` . ( update is an actually npm command so it was out of bounds, ```imagine``` updates everything instead of having to
-run the npm update command for every module ). This only works in genesis and not outside of it.
+To update type ```npm run imagine``` . ( update is an actual npm command so it was out of bounds, ```imagine``` updates everything instead of having to
+run the npm update command for every module ). This only works in genesis and not outside of it.(in case u were wodering , an 'imagine' is a group of Butterflies).
 
 Package.json comes pre-loaded with up to date modules capable of performing almost any function imaginable : (modules that are 'built in don't need to be listed).
 
@@ -242,21 +242,25 @@ this will deploy your new app to the vercel servers (make sure you have a , free
 ### Do's and Do not's
 
 * Do Not rename the'public' folder , or 'index.html' , edit it all you want but keep it where it is...
-* Do not rename or move any files created by genesis... unless you want to lose certain functions...
+* Do not rename or move any files created by genesis... ( exept 'obfuscate-script.js' and 'ai.js' , which are non-essential).
 * Do anything else you want ,including renaming or deleting empty folders...
 * Do create yr app in the 'src' folder and sub folders therein...
 
 ### Genesis Engine : 'Get with the program'...
 
 The genesis engine is the easiest and fastest project initiation engine on Earth - no need to spend hours reading the 'docs'.
+(Although a number of add on's to come will be released with comprehensive documentation).
 
 Initailize in less that 60 seconds and start coding....
 
-Enable automatic updates - we 'push' you the most recent versions of all your node_modules : type ; node auto-update.js
+Enable automatic updates - we 'push' you the most recent versions of all your node_modules : type ;  ```npn run imagine```
 
 Instant deployment to vercel.com 
 
+type ; ``` vercel login``` 
+then ; ``` vercel --prod ```
 
+**************************************************************************************************************************************************************************************************************************
 
 
 metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
