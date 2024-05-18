@@ -72,10 +72,15 @@ To add the ai to your new project , just drag (or copy and paste) the 'ai.js' an
 
 # Files
 index.html ; your default front end , edit it in whatever way you want ,this is the project GUI.
+
 server.js ; this is the development server , you can view any changes on the fly , in your default browser. Pre genesis there is nothing to see.
+
 obfuscate-script.js enables code obfuscation and minification obviating the need to add minification .css from remote servers as is the current modus operandi.
+
 Reducing energy waste two fold.
+
 After genesis type ; ```npm run encrypt``` , with the file you want to encrypt and 'obfuscate-script.js' in the sane dir , open 'obfuscate-script.js' in your IDE first
+
 and edit the input and out put file names to the name of the file u want to encrypt and what u want it to be named after encryption.
 
 
