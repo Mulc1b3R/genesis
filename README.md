@@ -71,7 +71,7 @@ add your api key to 'example.env' file and rename it '.env'  by removing the wor
 To add the ai to your new project , just drag (or copy and paste) the 'ai.js' and '.env' files in to your new 'genesis' folder... i put it in the initial root in case it is needed prior to genesis...
 
 # Files
-index.html ; you default front end , edit it in whatever way you want ,this is the project GUI.
+index.html ; your default front end , edit it in whatever way you want ,this is the project GUI.
 server.js ; this is the development server , you can view any changes on the fly , in your default browser. Pre genesis there is nothing to see.
 obfuscate-script.js enables code obfuscation and minification obviating the need to add minification .css from remote servers as is the current modus operandi.
 Reducing energy waste two fold.
